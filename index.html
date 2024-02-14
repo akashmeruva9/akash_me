@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Akash Meruva" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Akash Meruva">Akash Meruva</h1>
+
+          <p class="title">Android Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:akash.meruva2003@gmail.com" class="contact-link">akash.meruva2003@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/akash-meruva-ab1420222/" class="contact-link">Akash Meruva</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Github</p>
+
+              <a href="https://github.com/akashmeruva9" class="contact-link">akashmeruva9</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am Akash Meruva, currently pursuing a Computer Science degree at SRM University AP. 
+            I am specialized in the exciting field of Android development. I have gained valuable experience in this domain, successfully creating many Android applications. 
+            </p>
+
+          <p>
+            To further enhance my skills, I have undertaken internships at tech companies, where I had the opportunity to work on real-world projects and collaborate with experienced professionals. 
+            In addition to my internships, I have also ventured into freelancing, taking on projects where I had the chance to showcase my skills and deliver results that satisfied my clients. One of my notable accomplishments includes publishing an app on the Google Play Store, which not only demonstrated my proficiency but also helped the client attract over 1,000 users.
+         
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/workexperience.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Internships</h4>
+
+                <p class="service-item-text">
+                  Undertaken internships, worked on real-world projects and collaborated with experienced professionals.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Android Development</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for Android Phones.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hackathons</h4>
+
+                <p class="service-item-text">
+                  Won in Unfold 2023 Web3 Hackathon. Love to participate in Hackathons.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Coding</h4>
+
+                <p class="service-item-text">
+                  Solved 500+ DSA questions across different platforms.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Work Experience</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Mobile Application Developer Intern — Uipro Corporation</h4>
+
+            <span>06/2022 — 06/2023  ( 1yr )</span>
+
+            <p class="timeline-text">
+              Developed Phone Kavach 1000+ users, a security app with device admin and anti-theft features.
+            </p><div class="contact-info">
+                <a href="https://play.google.com/store/apps/details?id=com.rahulanand.phonekavach" class="contact-link">Play Store link</a>
+              </div>  
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Android Developer Intern —  Arema Technologies</h4>
+
+            <span>06/2022 — 07/2022 ( 1mo. )</span>
+
+            <p class="timeline-text">
+              Developed a loan and survey app, reducing the client’s employees and management work time from more than an hour to less than 15 mins.
+            </p>
+
+          </li>
+
+        </ol>
+
+      </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SRM University, AP</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                B.tech in Computer Science, Artificial Intelligence and Machine Learning
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pandit Junior College</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Major in Maths, Physics and Chemistry
+              </p>
+
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Position of Responsibility</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Next Tech Lab</h4>
+
+              <span>2023 — present</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">App Design & Development Club</h4>
+
+              <span>2021 - 2023</span>
+
+            </li>
+          </ol>
+
+          
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C/C++</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python </h5>
+                <data value="70">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:30%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="90">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Kotlin</h5>
+                <data value="50">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Android Development</h5>
+                <data value="50">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Firebase</h5>
+                <data value="50">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git & Github</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Android Apps</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Python projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>C++ Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Android Apps</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Python projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>C++ Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="android apps">
+              <a href="https://github.com/Omkar-Ghongade/Web3Verse">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web3Verse</h3>
+
+                <p class="project-category">Block Chain</p>
+
+              </a>
+              
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="android apps">
+              <a href="https://github.com/akashmeruva9/DevelApp">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Devel App</h3>
+
+                <p class="project-category">Android development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="android apps">
+              <a href="https://github.com/akashmeruva9/KnowMe">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Know Me</h3>
+
+                <p class="project-category">Android Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="android apps">
+              <a href="https://github.com/akashmeruva9/StatusSaver-for-Whatsaap">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Status Saver for Whatsapp</h3>
+
+                <p class="project-category">Android Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="android apps">
+              <a href="https://github.com/akashmeruva9/MusicWiki">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Music Wiki</h3>
+
+                <p class="project-category">Android Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="android apps">
+              <a href="https://github.com/akashmeruva9/Scrollo-App">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Scrollo App</h3>
+
+                <p class="project-category">Android Devlopment</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python projects">
+              <a href="https://github.com/akashmeruva9/Blindoo">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Blindoo</h3>
+
+                <p class="project-category">Research Project in Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python projects">
+              <a href="https://github.com/akashmeruva9/Resume-Maker">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Resume Maker</h3>
+
+                <p class="project-category">Python Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="c++ projects">
+              <a href="https://github.com/akashmeruva9/Mess_Automation_System">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mess Automation System</h3>
+
+                <p class="project-category">C++ Project</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="achievements" data-page="achievements">
+
+        <header>
+          <h2 class="h2 article-title">Achievements</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Hackathon</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">October 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Won Unfold Hackathon</h3>
+
+                  <p class="blog-text">
+                    Won the National Unfold 2023 Web3 Hackathon by COINDCX at Bangalore out of 200 teams.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Hackathon</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">February 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Won 9Hacks Hackathon</h3>
+
+                  <p class="blog-text">
+                    Won in Two themes of 9Hacks 12-Hour Hackathon, by Next Tech Lab, SRM University, AP.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Hackathon</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">November 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Won C Square Hackathon</h3>
+
+                  <p class="blog-text">
+                    Won in C Square 24-Hour Hackathon out of 43 Teams by Hackathon Club, SRM University,
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Competition</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">September 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Finale round Indian oil Startup Scheme</h3>
+
+                  <p class="blog-text">
+                    Selected for the finale round of the Indian Oil Startup Scheme - Green Resolve Amrit Kaal Adhyay.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
