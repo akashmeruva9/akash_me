@@ -210,7 +210,7 @@ now to permanetnlty delete a pod
 all pods will terminate
 ```
 
-#  Docker Installation 
+Docker Installation 
 ```
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -219,7 +219,7 @@ sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
-#  Add the repository to Apt sources:
+Add the repository to Apt sources:
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
@@ -227,7 +227,7 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
-#To install the latest version, run:
+To install the latest version, run:
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo docker run hello-world
@@ -235,7 +235,7 @@ sudo docker run hello-world
 
 
 
-#check to see if docker is running or not.
+# check to see if docker is running or not.
 ```
 1) sudo systemctl status docker
 
@@ -306,7 +306,7 @@ go to aws and find host ip
 
 ```
 
-#dockerfilecreation 
+# dockerfilecreation 
 
 ```
 #ensure there is seperate directory for docker file.
@@ -376,7 +376,7 @@ EXPOSE 80
 CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
 ```
 
-linking containers:
+# linking containers:
 For two container to talk to each other -
 its legacy feature
 
@@ -411,7 +411,7 @@ go inside the container
 ```
 
 ---------------------------------
-docker volumes
+# docker volumes
 -----------------------------------
 
 
@@ -497,7 +497,7 @@ now delete contaier
 57) docker continer rm -f apache-3
 ```
 
-#dockercompose 
+# dockercompose 
 
 install docker compose 
 
