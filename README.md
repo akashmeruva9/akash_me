@@ -1,6 +1,8 @@
 Open Git CMD:
 
-'''cd C:\Users\dell\Desktop\cherry '''
+'''
+cd C:\Users\dell\Desktop\cherry 
+'''
 git init
 git add .
 git commit -m “Initial commit”
