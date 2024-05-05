@@ -1,8 +1,7 @@
 Open Git CMD:
 
-'''
+```
 cd C:\Users\dell\Desktop\cherry 
-'''
 git init
 git add .
 git commit -m “Initial commit”
@@ -19,6 +18,7 @@ git add branchname.txt
 git commit -m “file name”
 git push origin branch name
 git status
+```
 
 #Linux Commands 
 
