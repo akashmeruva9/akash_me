@@ -1,4 +1,4 @@
-Open Git CMD:
+# Git Commands
 
 ```
 cd C:\Users\dell\Desktop\cherry 
@@ -20,7 +20,7 @@ git push origin branch name
 git status
 ```
 
-Linux Commands 
+# Linux Commands 
 ```
 # List directory contents
 ls
@@ -55,7 +55,7 @@ top
 df -h
 ```
 
-#Kuberbetes 
+# Kuberbetes 
 
 creating first pod
 ------------------------
@@ -210,7 +210,7 @@ now to permanetnlty delete a pod
 all pods will terminate
 ```
 
-#Docker Installation 
+#  Docker Installation 
 ```
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -219,7 +219,7 @@ sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
-#Add the repository to Apt sources:
+#  Add the repository to Apt sources:
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
