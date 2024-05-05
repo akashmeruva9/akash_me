@@ -67,7 +67,7 @@ sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
-# Add the repository to Apt sources:
+#Add the repository to Apt sources:
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
@@ -83,9 +83,76 @@ sudo docker run hello-world
 
 
 
+#check to see if docker is running or not.
+```
+1) sudo systemctl status docker
+
+# to create container we need image. To right away use
+#hub.docker.com - provieds us images not mandatory to download.
+# there are number of pre created images to download. 
+
+docker image = base os + application related files
+
+redis is small lightweight database
+
+if create a container using redis image, redis up and runniing 
+
+# we will use apacheweb server httpd
+#Apache Httpd is basically a web server used for handling requests and delivering #static content.
+#docker image pull imagename
+#docker image pull httpd
+
+docekr image has two things 
+
+imagename:image version 
+
+httpd:2.4
+httpd:2.2
+
+when you create image you need create like this 
+
+when you dont know name append latest
+
+2) docker image pull httpd:latest
+
+not enough permission 
+
+#run this command
+#sudo usermod -aG docker your-user
+
+3) sudo usermod -aG docker ubuntu
+#restat putty
+
+4) docker image pull httpd:latest
+docker image is pulled, how to check it 
+
+5) docke image ls
+#image need to be on local machine 
+
+# to check existing container
+6) docker container ls
 
 
+# to create contaier 
+docker container run -d -p 10001:80 --name apache-1 imagename:version
+# -d is to tell it to run in background , ex: notepad
+# -p is for networking, port tunneling, we will expose  10001 to 80 
 
+7) docker container run -d -p 10001:80 --name apache-1 httpd:latest
+#new container is created 
+
+8) docker container ls
+every container has unique id and uniqie name 
+
+now apacheweb server is up and running 
+
+let go and access it 
+what is the port for outside world?
+go to aws and find host ip 
+
+9)on browser- http://hostip:port
+
+```
 
 
 
