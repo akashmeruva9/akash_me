@@ -1,22 +1,22 @@
 Open Git CMD:
 
-1.cd C:\Users\dell\Desktop\cherry
-2.git init
-3.git add .
-4.git commit -m “Initial commit”
-5.git remote add origin https://github.com/Madalacharitavya/SE.git
-6.git push -u origin master
-7.git log
-8.git branch branch name
-9.git checkout branch name
-10.git merge branch name
-11.git status
-12.git init
-13.git checkout -b branch name
-14.git add branchname.txt
-15.git commit -m “file name”
-16.git push origin branch name
-17.git status
+'''cd C:\Users\dell\Desktop\cherry '''
+git init
+git add .
+git commit -m “Initial commit”
+git remote add origin https://github.com/Madalacharitavya/SE.git
+git push -u origin master
+git log
+git branch branch name
+git checkout branch name
+git merge branch name
+git status
+git init
+git checkout -b branch name
+git add branchname.txt
+git commit -m “file name”
+git push origin branch name
+git status
 
 #Linux Commands 
 
